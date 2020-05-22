@@ -15,12 +15,31 @@ var app = new Framework7({
       path: '/about/',
       url: 'about.html',
     },
+<<<<<<< HEAD
     {
       path: '/tours/',
       url: 'tours.html',
+=======
+       {
+      path: '/quever/',
+      url: 'quever.html',
+>>>>>>> 829ba96baa2fd3cbd2e08987bea8b042ec6d9712
     },
   ],
   // ... other parameters
 });
 
+<<<<<<< HEAD
 var mainView = app.views.create('.view-main');
+=======
+var mainView = app.views.create('.view-main');
+
+var abrirPopupInicial = app.popup.open(".popup-inicial");
+//var cerrarPopup;
+//function cerrar_popup(){
+//    cerrarPopup = setTimeout(function(){
+//        var abrirPopupInicial = app.popup.close(".popup-inicial", true);
+//    }, 3000);
+//};
+//cerrar_popup()
+>>>>>>> 829ba96baa2fd3cbd2e08987bea8b042ec6d9712
