@@ -15,6 +15,21 @@ var app = new Framework7({
       path: '/about/',
       url: 'about.html',
     },
+       {
+      path: '/quever/',
+      url: 'quever.html',
+    },
   ],
   // ... other parameters
 });
+
+var mainView = app.views.create('.view-main');
+
+var abrirPopupInicial = app.popup.open(".popup-inicial");
+//var cerrarPopup;
+//function cerrar_popup(){
+//    cerrarPopup = setTimeout(function(){
+//        var abrirPopupInicial = app.popup.close(".popup-inicial", true);
+//    }, 3000);
+//};
+//cerrar_popup()
