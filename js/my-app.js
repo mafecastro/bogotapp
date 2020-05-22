@@ -1,37 +1,40 @@
 var app = new Framework7({
-  // App root element
-  root: '#app',
-  // App Name
-  name: 'bogotapp',
-  // App id
-  id: 'com.bogotapp',
-  // Enable swipe panel
-  panel: {
-    swipe: 'left',
-  },
-  // Add default routes
-  routes: [
-    {
-      path: '/about/',
-      url: 'about.html',
+    // App root element
+    root: '#app',
+    // App Name
+    name: 'bogotapp',
+    // App id
+    id: 'com.bogotapp',
+    // Enable swipe panel
+    panel: {
+        swipe: 'left',
     },
-<<<<<<< HEAD
-    {
-      path: '/tours/',
-      url: 'tours.html',
-=======
-       {
-      path: '/quever/',
-      url: 'quever.html',
->>>>>>> 829ba96baa2fd3cbd2e08987bea8b042ec6d9712
+    // Add default routes
+    routes: [
+        {
+            path: '/about/',
+            url: 'about.html',
+    },
+
+        {
+            path: '/tours/',
+            url: 'tours.html',
+ },
+        {
+            path: '/quever/',
+            url: 'quever.html',
+
     },
   ],
-  // ... other parameters
+    // ... other parameters
 });
 
-<<<<<<< HEAD
-var mainView = app.views.create('.view-main');
-=======
+<<
+<<
+<< < HEAD
+var mainView = app.views.create('.view-main'); ===
+===
+=
 var mainView = app.views.create('.view-main');
 
 var abrirPopupInicial = app.popup.open(".popup-inicial");
@@ -42,4 +45,6 @@ var abrirPopupInicial = app.popup.open(".popup-inicial");
 //    }, 3000);
 //};
 //cerrar_popup()
->>>>>>> 829ba96baa2fd3cbd2e08987bea8b042ec6d9712
+>>>
+>>>
+> 829 ba96baa2fd3cbd2e08987bea8b042ec6d9712
