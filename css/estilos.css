@@ -1,0 +1,22 @@
+.page-content{
+  background-image:url(../images/patron.png);
+  background-repeat: repeat;
+  
+}
+
+
+img.demo-lazy {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  div.demo-lazy {
+    background: #aaa;
+    background-size: cover;
+    height: 60vw;
+  }
+  .tourinfo p{
+    font-family: 'Jost', sans-serif;
+    font-weight: normal;
+
+  }
