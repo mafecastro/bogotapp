@@ -29,12 +29,7 @@ var app = new Framework7({
     // ... other parameters
 });
 
-<<
-<<
-<< < HEAD
-var mainView = app.views.create('.view-main'); ===
-===
-=
+
 var mainView = app.views.create('.view-main');
 
 var abrirPopupInicial = app.popup.open(".popup-inicial");
@@ -45,6 +40,3 @@ var abrirPopupInicial = app.popup.open(".popup-inicial");
 //    }, 3000);
 //};
 //cerrar_popup()
->>>
->>>
-> 829 ba96baa2fd3cbd2e08987bea8b042ec6d9712
