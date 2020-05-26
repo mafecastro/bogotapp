@@ -1,3 +1,4 @@
+
 .page-content{
   background-image:url(../images/patron.png);
   background-repeat: repeat;
@@ -44,3 +45,127 @@ img.demo-lazy {
     padding: 20px;
     background-color: orange;
 }
+
+/*ESTILOS VELASQUEZ*/
+.barra-sup{
+    background-color:#ed5c05;
+}
+.barra-down{
+    background-color: #eccb0f;
+}
+.toolbar-inner{
+   padding: 0 30px;
+    color: aqua;
+}
+.toolbar-inner a{
+    color: white;
+    font-size: 1.5em;
+}
+.list.links-list, .list.accordion-list{
+    margin:0;
+}
+.list.links-list{
+    border-bottom: none;
+}
+.panel.panel-left.panel-reveal.panel-resizable.panel-init{
+     background-color:#eccb0f;
+}
+.list, .links-list ul{
+    background-color:#eccb0f;
+
+}
+.list, .links-list li{
+    font-family: 'Jost', sans-serif;
+    font-size: 17px
+}
+.list, .accordion-list ul{
+    background-color:#eccb0f
+}
+.list, .accordion-list li{
+    font-family: 'Jost', sans-serif;
+    color: #031926
+}
+.accordion-item-content a{
+    text-decoration: none;
+    color: #031926;
+    font-size: 15px;
+    margin-left: 20px;
+    border-bottom: 1px solid black;
+}
+.left a{
+    color: white;
+    margin-left: 35px;
+    font-size: 1.2em
+}
+.page-content{
+    background-image:url(../images/patron.png);
+}
+.texto1-rest{
+    padding: 0 20px
+}
+
+.titulo-principal{
+     font-family: 'Jost', sans-serif;
+    color: #031926;
+    margin-bottom: 0;
+}
+.bo img{
+width: 50px;
+}
+.parra-principal{
+    color: #031926;
+    text-align: left;
+     font-size: 16px;
+    font-family: 'Jost', sans-serif;
+}
+.img{
+    width: 100%;
+    display: block;
+}
+/*ESTILOS RESTAURANTES*/
+.sub-rest{
+    font-family: 'Jost', sans-serif;
+    margin-top: 0;
+}
+.col.button.button-large{
+    width: 100%;
+    padding: 8px;
+    background-color: #e8e3e3;
+    border-radius: 50px;
+}
+.col.button.button-large a{
+    text-decoration: none;
+    color: #031926;
+    font-size: 13px;
+
+}
+.titulo-principal2{
+    font-family: 'Jost', sans-serif;
+    color: #031926;
+    padding: 15px;
+    font-size: 20px
+}
+/*estilos titulos de las paginas*/
+.navbar-inner.barra-sup .title{
+    color: white;
+    font-family: 'Jost', sans-serif;
+}
+/*
+.card-content-padding .tituloscartas {
+    font-family: 'Jost', sans-serif;
+    color: #031926;
+    font-size: 18px;
+}
+.card-content-padding p{
+    font-family: 'Jost', sans-serif;
+    color: #031926;
+    font-size: 16px;
+
+}
+
+
+.card-content img{
+    width: 100%;
+
+}*/
+
