@@ -25,6 +25,26 @@ var app = new Framework7({
             url: 'quever.html',
 
     },
+        {
+        path:"/disfruta/",
+        url:"disfruta.html"
+    },
+    {
+        path:"/restaurante/",
+        url:"restaurante.html"
+    },
+    {
+        path:"/tresestrellas/",
+        url:"tresestrellas.html"
+    },
+      {
+        path:"/cuatroestrellas/",
+        url:"cuatroestrellas.html"
+    },
+      {
+        path:"/cincoestrellas/",
+        url:"cincoestrellas.html"
+    },
   ],
     // ... other parameters
 });
