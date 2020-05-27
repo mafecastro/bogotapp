@@ -45,6 +45,14 @@ var app = new Framework7({
         path:"/cincoestrellas/",
         url:"cincoestrellas.html"
     },
+        {
+        path:"/novedadesuno/",
+        url:"novedadesuno.html"
+    },
+         {
+        path:"/actividades/",
+        url:"actividades.html"
+    },
   ],
     // ... other parameters
 });

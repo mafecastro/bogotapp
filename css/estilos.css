@@ -63,6 +63,23 @@ img.demo-lazy {
     text-align: center;
     margin-top: 60%;
 }
+
+.barracolor{
+    background-color: #031926;
+}
+.right{
+    color: white;
+    margin-right: 25px;
+
+}
+.block h2{
+    color: #031926;
+    font-size: 23px;
+    margin-left: 10px;
+}
+.block img{
+    width: 100%;
+}
 .botonprincipal{
     border-radius: 10px;
     padding: 20px;
@@ -118,8 +135,8 @@ img.demo-lazy {
 }
 .left a{
     color: white;
-    margin-left: 35px;
-    font-size: 1.2em
+    margin-left: 25px;
+    font-size: 1.2em;
 }
 .page-content{
     background-image:url(../images/patron.png);
