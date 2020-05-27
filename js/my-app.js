@@ -46,12 +46,31 @@ var app = new Framework7({
         url:"cincoestrellas.html"
     },
         {
+<<<<<<< HEAD
         path:"/novedadesuno/",
         url:"novedadesuno.html"
     },
          {
         path:"/actividades/",
         url:"actividades.html"
+=======
+        path:"/hospedarse/",
+        url:"hospedarse.html"
+    },
+        {
+        path:"/hoteles/",
+        url:"hoteles.html"
+    },
+        {
+        path:"/treses-hoteles/",
+        url:"treses-hoteles.html"
+    },{
+        path:"/cuatroes-hoteles/",
+        url:"cuatroes-hoteles.html"
+    },{
+        path:"/cincoes-hoteles/",
+        url:"cincoes-hoteles.html"
+>>>>>>> origin/master
     },
   ],
     // ... other parameters
