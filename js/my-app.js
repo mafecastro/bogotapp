@@ -45,6 +45,24 @@ var app = new Framework7({
         path:"/cincoestrellas/",
         url:"cincoestrellas.html"
     },
+        {
+        path:"/hospedarse/",
+        url:"hospedarse.html"
+    },
+        {
+        path:"/hoteles/",
+        url:"hoteles.html"
+    },
+        {
+        path:"/treses-hoteles/",
+        url:"treses-hoteles.html"
+    },{
+        path:"/cuatroes-hoteles/",
+        url:"cuatroes-hoteles.html"
+    },{
+        path:"/cincoes-hoteles/",
+        url:"cincoes-hoteles.html"
+    },
   ],
     // ... other parameters
 });

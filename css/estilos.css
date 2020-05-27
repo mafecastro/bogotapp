@@ -74,6 +74,9 @@ img.demo-lazy {
 .barra-sup{
     background-color:#ed5c05;
 }
+.barra-sup-hospedarse{
+    background-color: #7c0f0f;
+}
 .barra-down{
     background-color: #eccb0f;
 }
@@ -169,10 +172,56 @@ width: 50px;
     padding: 15px;
     font-size: 20px
 }
-/*estilos titulos de las paginas*/
-.navbar-inner.barra-sup .title{
-    color: white;
-    font-family: 'Jost', sans-serif;
+
+/*FOTOS CARTAS EXPANDIBLES RESTAURANTES*/
+.tres-img-1{
+    background-image: url(../images/pizza-candelaria2.png);
+}
+.tres-img-2{
+    background-image: url(../images/rusticafix.png);
+}
+.tres-img-3{
+    background-image: url(../images/lamolina.png);
+}
+.tres-img-4{
+    background-image: url(../images/qun.png);
+}
+.cuatro-img-1{
+    background-image: url(../images/galenos.png);
+}
+.cuatro-img-2{
+    background-image: url(../images/serrata.png);
+}
+.cuatro-img-3{
+    background-image: url(../images/el-mono-bandidofix.png);
+}
+.cuatro-img-4{
+    background-image: url(../images/galgohotdogs.png);
+}
+.cinco-img-1{
+    background-image: url(../images/ushini.png);
+}
+.cinco-img-2{
+    background-image: url(../images/capitalino.png);
+}
+.cinco-img-3{
+    background-image: url(../images/flambee.png);
+}
+.cinco-img-4{
+    background-image: url(../images/inkas.png);
+}
+/*FOTOS CARTAS EXPANDIBLES HOTELES*/
+.treshot-1{
+    background-image: url(../images/ayenda.png);
+}
+.treshot-2{
+    background-image: url(../images/hotel-comic-city.png);
+}
+.treshot-3{
+    background-image: url(../images/embassy.png);
+}
+.treshot-4{
+    background-image: url(../images/goldentower.png);
 }
 /*
 .card-content-padding .tituloscartas {
@@ -192,4 +241,10 @@ width: 50px;
     width: 100%;
 
 }*/
+
+/*estilos titulos de las paginas*/
+.navbar-inner.barra-sup .title{
+    color: white;
+    font-family: 'Jost', sans-serif;
+}
 
