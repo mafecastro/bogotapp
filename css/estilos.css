@@ -7,21 +7,7 @@
 
 
 
-img.demo-lazy {
-    width: 100%;
-    height: auto;
-    display: block;
-  }
-  div.demo-lazy {
-    background: #aaa;
-    background-size: cover;
-    height: 60vw;
-  }
-  .tourinfo p{
-    font-family: 'Jost', sans-serif;
-    font-weight: normal;
 
-  }
 .demo-swiper .swiper-slide {
   font-size: 25px;
   font-weight: 300;
@@ -192,4 +178,56 @@ width: 50px;
     width: 100%;
 
 }*/
+
+
+
+
+/*ESTILOS CASTRO*/
+
+.barra-supmafec {
+    background-color:#f20530;
+}
+.navbar-inner.barra-supmafec .title{
+    color: white;
+    font-family: 'Jost', sans-serif;
+}
+.tourtitulo {
+    color:#031926;
+    font-weight: bold;
+    widows: 55px;
+    margin:0px 20px;
+    font-size: 18px;
+    width: 60%;
+}
+.tourinfo{
+    width: 90%;
+    margin:auto;
+    margin-bottom:20px;
+}
+img.demo-lazy {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+}
+div.demo-lazy {
+    background: #aaa;
+    background-size: cover;
+    height: 60vw;
+}
+.tourinfo p{
+    font-family: 'Jost', sans-serif;
+    font-weight: normal;
+    widows: 55px;
+    margin-bottom: 10px;
+    font-size: 12px;
+    text-align: justify;
+}
+
+.tourinfo h3{
+    color:#031926;
+    font-weight: bold;
+    widows: 55px;
+    font-size: 15px; 
+}
 
