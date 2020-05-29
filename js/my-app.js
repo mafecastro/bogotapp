@@ -10,83 +10,120 @@ var app = new Framework7({
         swipe: 'left',
     },
     // Add default routes
-    routes: [
-        {
+    routes: [{
             path: '/about/',
             url: 'about.html',
-    },
+        },
+        {
+            path: '/index/',
+            url: 'index.html',
+        },
 
         {
             path: '/tours/',
             url: 'tours.html',
-    },
+        },
         {
             path: '/espectaculos/',
             url: 'espectaculos.html',
-    },
+        },
         {
-        path: '/excursiones/',
-        url: 'excursiones.html',
-    },
+            path: '/excursiones/',
+            url: 'excursiones.html',
+        },
         {
             path: '/quever/',
             url: 'quever.html',
-    },
+        },
         {
-        path: '/museos/',
-        url: 'museos.html',
-    },
-    {
-        path: '/entretenimiento/',
-        url: 'entretenimiento.html',
-    },
+            path: '/museos/',
+            url: 'museos.html',
+        },
         {
-        path:"/disfruta/",
-        url:"disfruta.html"
-    },
-    {
-        path:"/restaurante/",
-        url:"restaurante.html"
-    },
-    {
-        path:"/tresestrellas/",
-        url:"tresestrellas.html"
-    },
+            path: '/entretenimiento/',
+            url: 'entretenimiento.html',
+        },
         {
-        path:"/cuatroestrellas/",
-        url:"cuatroestrellas.html"
-    },
+            path: "/disfruta/",
+            url: "disfruta.html"
+        },
         {
-        path:"/cincoestrellas/",
-        url:"cincoestrellas.html"
-    },
-    {
-        path:"/novedadesuno/",
-        url:"novedadesuno.html"
-    },
+            path: "/restaurante/",
+            url: "restaurante.html"
+        },
         {
-        path:"/actividades/",
-        url:"actividades.html"},
-    {
-        path:"/hoteles/",
-        url:"hoteles.html"
-    },
+            path: "/tresestrellas/",
+            url: "tresestrellas.html"
+        },
         {
-        path:"/treses-hoteles/",
-        url:"treses-hoteles.html"
-    },
+            path: "/cuatroestrellas/",
+            url: "cuatroestrellas.html"
+        },
         {
-        path:"/cuatroes-hoteles/",
-        url:"cuatroes-hoteles.html"
-    },
+            path: "/cincoestrellas/",
+            url: "cincoestrellas.html"
+        },
         {
-        path:"/cincoes-hoteles/",
-        url:"cincoes-hoteles.html"
-    },
+
+            path: "/novedadesuno/",
+            url: "novedadesuno.html"
+        },
         {
-        path:"/hospedarse/",
-        url:"hospedarse.html"
-    },
+            path: "/actividades/",
+            url: "actividades.html"
+
+        },
+        {
+
+            path: "/hospedarse/",
+            url: "hospedarse.html"
+        },
+        {
+            path: "/hoteles/",
+            url: "hoteles.html"
+        },
+        {
+            path: "/treses-hoteles/",
+            url: "treses-hoteles.html"
+        }, {
+            path: "/cuatroes-hoteles/",
+            url: "cuatroes-hoteles.html"
+        }, {
+            path: "/cincoes-hoteles/",
+            url: "cincoes-hoteles.html"
+
+        }, {
+            path: "/primeranovedad/",
+            url: "primeranovedad.html"
+        },
+        {
+            path: "/segundanovedad/",
+            url: "segundanovedad.html"
+        },
+        {
+            path: "/terceranovedad/",
+            url: "terceranovedad.html"
+        },
+        {
+            path: "/vidanocturna/",
+            url: "vidanocturna.html"
+        },
+        {
+            path: "/compras/",
+            url: "compras.html"
+        },
+        {
+            path: "/airelibre/",
+            url: "airelibre.html"
+        },
+        {
+            path: "/rutas/",
+            url: "rutas.html"
+        },
+        {
+            path: "/atracciones/",
+            url: "atracciones.html"
+        },
     ],
     // ... other parameters
 });
@@ -102,4 +139,3 @@ var abrirPopupInicial = app.popup.open(".popup-inicial");
 //    }, 3000);
 //};
 //cerrar_popup()
-
