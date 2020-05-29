@@ -15,6 +15,10 @@ var app = new Framework7({
             path: '/about/',
             url: 'about.html',
     },
+        {
+            path: '/index/',
+            url: 'index.html',
+    },
 
         {
             path: '/tours/',
@@ -26,54 +30,65 @@ var app = new Framework7({
 
     },
         {
-        path:"/disfruta/",
-        url:"disfruta.html"
+            path: "/disfruta/",
+            url: "disfruta.html"
     },
-    {
-        path:"/restaurante/",
-        url:"restaurante.html"
+        {
+            path: "/restaurante/",
+            url: "restaurante.html"
     },
-    {
-        path:"/tresestrellas/",
-        url:"tresestrellas.html"
+        {
+            path: "/tresestrellas/",
+            url: "tresestrellas.html"
     },
-      {
-        path:"/cuatroestrellas/",
-        url:"cuatroestrellas.html"
+        {
+            path: "/cuatroestrellas/",
+            url: "cuatroestrellas.html"
     },
-      {
-        path:"/cincoestrellas/",
-        url:"cincoestrellas.html"
+        {
+            path: "/cincoestrellas/",
+            url: "cincoestrellas.html"
     },
         {
 
-        path:"/novedadesuno/",
-        url:"novedadesuno.html"
+            path: "/novedadesuno/",
+            url: "novedadesuno.html"
     },
-         {
-        path:"/actividades/",
-        url:"actividades.html"
+        {
+            path: "/actividades/",
+            url: "actividades.html"
 
          },
         {
 
-        path:"/hospedarse/",
-        url:"hospedarse.html"
+            path: "/hospedarse/",
+            url: "hospedarse.html"
     },
         {
-        path:"/hoteles/",
-        url:"hoteles.html"
+            path: "/hoteles/",
+            url: "hoteles.html"
     },
         {
-        path:"/treses-hoteles/",
-        url:"treses-hoteles.html"
-    },{
-        path:"/cuatroes-hoteles/",
-        url:"cuatroes-hoteles.html"
-    },{
-        path:"/cincoes-hoteles/",
-        url:"cincoes-hoteles.html"
+            path: "/treses-hoteles/",
+            url: "treses-hoteles.html"
+    }, {
+            path: "/cuatroes-hoteles/",
+            url: "cuatroes-hoteles.html"
+    }, {
+            path: "/cincoes-hoteles/",
+            url: "cincoes-hoteles.html"
 
+    }, {
+            path: "/primeranovedad/",
+            url: "primeranovedad.html"
+    },
+        {
+            path: "/segundanovedad/",
+            url: "segundanovedad.html"
+    },
+        {
+            path: "/terceranovedad/",
+            url: "terceranovedad.html"
     },
   ],
     // ... other parameters

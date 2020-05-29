@@ -1,189 +1,420 @@
+.page-content {
+    background-image: url(../images/patron.png);
+    background-repeat: repeat;
 
-.page-content{
-  background-image:url(../images/patron.png);
-  background-repeat: repeat;
-  
 }
 
-
-
-img.demo-lazy {
-    width: 100%;
-    height: auto;
-    display: block;
-  }
-  div.demo-lazy {
-    background: #aaa;
-    background-size: cover;
-    height: 60vw;
-  }
-  .tourinfo p{
-    font-family: 'Jost', sans-serif;
-    font-weight: normal;
-
-  }
 .demo-swiper .swiper-slide {
-  font-size: 25px;
-  font-weight: 300;
-  justify-content: center;
-  align-items: center;
-  background: #fff;
-  color: #000;
+    font-size: 25px;
+    font-weight: 300;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    color: #000;
 }
+
 .demo-swiper .swiper-slide {
-  box-sizing: border-box;
-  border: 1px solid #ddd;
-  background: #fff;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    background: #fff;
 }
+
 .demo-swiper {
-  margin: 0px 0 35px;
-  font-size: 18px;
-  height: 100%;
+    margin: 0px 0 35px;
+    font-size: 18px;
+    height: 100%;
 }
-.swiper-slide{
-    background-image:url(../images/patron.png);
-  background-repeat: repeat;
+
+.swiper-slide {
+    background-image: url(../images/patron.png);
+    background-repeat: repeat;
+
 }
-.swiper-slide img{
+
+.swiper-slide img {
     margin-left: 45px;
 }
-.swiper-slide h1{
-    color: #050529;
-    font-size: 30px;
+
+.swiper-slide h1 {
+    color: #178faf;
+    font-size: 26px;
     display: block;
     text-align: left;
-    padding: 90px 90px 20px;
+    padding: 220px 90px 20px;
 }
+
 .swiper-slide p {
-    padding: 0 90px ;
+    padding: 10px 90px;
     text-align: left;
-    font-size: 22px;
+    font-size: 15px;
+    font-weight: bolder;
+    color: #031926;
 }
-.botonpopupc{
+
+.botonpopupc {
     text-align: center;
     margin-top: 60%;
 }
 
-.barracolor{
+.barracolor {
     background-color: #031926;
 }
-.right{
+
+.right a {
     color: white;
     margin-right: 25px;
 
 }
-.block h2{
+
+.block h2 {
     color: #031926;
     font-size: 23px;
     margin-left: 10px;
 }
-.block img{
+
+.block img {
     width: 100%;
-}
-.botonprincipal{
-    border-radius: 10px;
-    padding: 20px;
-    background-color: lightgray;
-    margin: 10px 40px 15px ;
+    margin-bottom: 15px;
 }
 
-/*ESTILOS VELASQUEZ*/
-.barra-sup{
-    background-color:#ed5c05;
+.botonprincipal {
+    border-radius: 10px;
+
+    background-color: lightgray;
+    display: flex;
+    flex-wrap: wrap;
+    display: block;
+    margin: 10px;
+    width: 280px;
+    margin-left: 20%;
+
+
 }
-.barra-sup-hospedarse{
+
+.rowbotones a {
+    color: #031926;
+    justify-content: center;
+    text-align: center;
+}
+
+.rowbotones img {
+
+    width: 40px;
+    height: 40px;
+    display: block;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    padding-top: 6px;
+}
+
+/*NOVEDADES*/
+.barracolornov {
+    background-color: #ffd900;
+}
+
+.titlenov {
+    color: #031926;
+    font-family: "jost", sans-serif;
+    margin: auto;
+    font-weight: bolder;
+
+}
+
+.rightnovedades {
+    display: none;
+}
+
+.novedadestodo2 {
+    background-color: gainsboro;
+    width: 330px;
+    height: 200px;
+    margin: 37px auto 0;
+    border-radius: 10px;
+}
+
+.novedadestodo {
+    background-color: gainsboro;
+    width: 330px;
+    height: 200px;
+    margin: 25px auto 0;
+    border-radius: 10px;
+}
+
+.novedadestodo img {
+    width: 330px;
+    height: 140px;
+    border-radius: 10px;
+}
+
+.novedadestodo h4 {
+
+    font-family: "jost", sans-serif;
+    color: #031926;
+    margin: 6px 25px 0;
+
+}
+
+.novedadestodo a {
+    font-size: 13px;
+    font-family: "jost", sans-serif;
+    color: #031926;
+    margin-left: 250px;
+
+
+
+}
+
+/*PRIMERANOVEDAD*/
+.leftnov {
+    display: none;
+}
+
+.flechaleft a {
+    color: white;
+    margin-left: 20px;
+    font-size: 20px;
+
+}
+
+.titlenovuno {
+    margin: auto;
+    font-weight: bolder;
+
+}
+
+.firstnovedad img {
+    width: 90%;
+    margin: 110px auto 0;
+    display: table;
+}
+
+.firstnovedad h5 {
+    padding: 10px 20px 0 20px;
+    font-size: 12px;
+    font-family: "jost", sans-serif;
+    color: #031926;
+    margin: 10px;
+}
+
+.firstnovedad h2 {
+    padding: 15px 10px 0 10px;
+    font-family: "jost", sans-serif;
+    color: #031926;
+    text-align: center;
+}
+
+/*SEGUNDANOVEDAD*/
+
+.secondnovedad img {
+    width: 90%;
+    margin: 110px auto 0;
+    display: table;
+}
+
+.secondnovedad h5 {
+    padding: 10px 20px 0 20px;
+    font-size: 12px;
+    font-family: "jost", sans-serif;
+    color: #031926;
+    margin: 10px;
+}
+
+.secondnovedad h2 {
+    padding: 15px 10px 0 10px;
+    font-family: "jost", sans-serif;
+    color: #031926;
+    text-align: center;
+
+}
+
+
+/*ACTIVIDADES*/
+.barraactividades {
+    background-color: #f20530;
+}
+
+.pagina-act h1 {
+    margin-left: 20px;
+    color: #031926;
+    font-family: "jost", sans-serif;
+}
+
+.pagina-act h6 {
+    margin-top: -23px;
+    margin-left: 20px;
+    font-size: 13px;
+    font-family: "jost", sans-serif;
+    color: #031926;
+}
+
+.pagina-act h4 {
+    font-size: 18px;
+    color: #031926;
+    font-weight: 600;
+    line-height: 22px;
+    margin-top: -18px;
+    margin-left: 20px;
+    margin-right: 30px;
+    font-family: "jost", sans-serif;
+}
+.botonactividades{
+    border-radius: 10px;
+    background-color:gainsboro;
+
+    display: block;
+    margin: 10px;
+    width: 280px;
+    margin-left: 20%;
+}
+
+.rowbotonesact a{
+    color: #031926;
+    justify-content: center;
+    text-align: center;
+}
+
+.rowbotonesact i{
+    width: 40px;
+    height: 40px;
+    display: block;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    padding-top: 6px;
+}
+
+
+
+
+
+
+
+
+/*ESTILOS VELASQUEZ*/
+.barra-sup {
+    background-color: #ed5c05;
+}
+
+.barra-sup-hospedarse {
     background-color: #7c0f0f;
 }
-.barra-down{
+
+.barra-down {
     background-color: #eccb0f;
 }
-.toolbar-inner{
-   padding: 0 30px;
+
+.toolbar-inner {
+    padding: 0 30px;
     color: aqua;
 }
-.toolbar-inner a{
+
+.toolbar-inner a {
     color: white;
     font-size: 1.5em;
 }
-.list.links-list, .list.accordion-list{
-    margin:0;
+
+.list.links-list,
+.list.accordion-list {
+    margin: 0;
 }
-.list.links-list{
+
+.list.links-list {
     border-bottom: none;
 }
-.panel.panel-left.panel-reveal.panel-resizable.panel-init{
-     background-color:#eccb0f;
+
+.panel.panel-left.panel-reveal.panel-resizable.panel-init {
+    background-color: #eccb0f;
 }
-.list, .links-list ul{
-    background-color:#eccb0f;
+
+.list,
+.links-list ul {
+    background-color: #eccb0f;
 
 }
-.list, .links-list li{
+
+.list,
+.links-list li {
     font-family: 'Jost', sans-serif;
     font-size: 17px
 }
-.list, .accordion-list ul{
-    background-color:#eccb0f
+
+.list,
+.accordion-list ul {
+    background-color: #eccb0f
 }
-.list, .accordion-list li{
+
+.list,
+.accordion-list li {
     font-family: 'Jost', sans-serif;
     color: #031926
 }
-.accordion-item-content a{
+
+.accordion-item-content a {
     text-decoration: none;
     color: #031926;
     font-size: 15px;
     margin-left: 20px;
     border-bottom: 1px solid black;
 }
-.left a{
+
+.left a {
     color: white;
     margin-left: 25px;
     font-size: 1.2em;
 }
-.page-content{
-    background-image:url(../images/patron.png);
+
+.page-content {
+    background-image: url(../images/patron.png);
 }
-.texto1-rest{
+
+.texto1-rest {
     padding: 0 20px
 }
 
-.titulo-principal{
-     font-family: 'Jost', sans-serif;
+.titulo-principal {
+    font-family: 'Jost', sans-serif;
     color: #031926;
     margin-bottom: 0;
 }
-.bo img{
-width: 50px;
+
+.bo img {
+    width: 50px;
 }
-.parra-principal{
+
+.parra-principal {
     color: #031926;
     text-align: left;
-     font-size: 16px;
+    font-size: 16px;
     font-family: 'Jost', sans-serif;
 }
-.img{
+
+.img {
     width: 100%;
     display: block;
 }
+
 /*ESTILOS RESTAURANTES*/
-.sub-rest{
+.sub-rest {
     font-family: 'Jost', sans-serif;
     margin-top: 0;
 }
-.col.button.button-large{
+
+.col.button.button-large {
     width: 100%;
     padding: 8px;
     background-color: #e8e3e3;
     border-radius: 50px;
 }
-.col.button.button-large a{
+
+.col.button.button-large a {
     text-decoration: none;
     color: #031926;
     font-size: 13px;
 
 }
-.titulo-principal2{
+
+.titulo-principal2 {
     font-family: 'Jost', sans-serif;
     color: #031926;
     padding: 15px;
@@ -191,55 +422,71 @@ width: 50px;
 }
 
 /*FOTOS CARTAS EXPANDIBLES RESTAURANTES*/
-.tres-img-1{
+.tres-img-1 {
     background-image: url(../images/pizza-candelaria2.png);
 }
-.tres-img-2{
+
+.tres-img-2 {
     background-image: url(../images/rusticafix.png);
 }
-.tres-img-3{
+
+.tres-img-3 {
     background-image: url(../images/lamolina.png);
 }
-.tres-img-4{
+
+.tres-img-4 {
     background-image: url(../images/qun.png);
 }
-.cuatro-img-1{
+
+.cuatro-img-1 {
     background-image: url(../images/galenos.png);
 }
-.cuatro-img-2{
+
+.cuatro-img-2 {
     background-image: url(../images/serrata.png);
 }
-.cuatro-img-3{
+
+.cuatro-img-3 {
     background-image: url(../images/el-mono-bandidofix.png);
 }
-.cuatro-img-4{
+
+.cuatro-img-4 {
     background-image: url(../images/galgohotdogs.png);
 }
-.cinco-img-1{
+
+.cinco-img-1 {
     background-image: url(../images/ushini.png);
 }
-.cinco-img-2{
+
+.cinco-img-2 {
     background-image: url(../images/capitalino.png);
 }
-.cinco-img-3{
+
+.cinco-img-3 {
     background-image: url(../images/flambee.png);
 }
-.cinco-img-4{
+
+.cinco-img-4 {
     background-image: url(../images/inkas.png);
 }
+
 /*FOTOS CARTAS EXPANDIBLES HOTELES*/
-.treshot-1{
+.treshot-1 {
     background-image: url(../images/ayenda.png);
 }
-.treshot-2{
+
+.treshot-2 {
     background-image: url(../images/hotel-comic-city.png);
 }
-.treshot-3{
+
+.treshot-3 {
     background-image: url(../images/embassy.png);
 }
-.treshot-4{
+
+.treshot-4 {
     background-image: url(../images/goldentower.png);
 }
+
 /*
 .card-content-padding .tituloscartas {
     font-family: 'Jost', sans-serif;
@@ -260,8 +507,7 @@ width: 50px;
 }*/
 
 /*estilos titulos de las paginas*/
-.navbar-inner.barra-sup .title{
+.navbar-inner.barra-sup .title {
     color: white;
     font-family: 'Jost', sans-serif;
 }
-
