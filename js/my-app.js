@@ -90,6 +90,26 @@ var app = new Framework7({
             path: "/terceranovedad/",
             url: "terceranovedad.html"
     },
+         {
+        path:"/vidanocturna/",
+        url:"vidanocturna.html"
+    },
+         {
+        path:"/compras/",
+        url:"compras.html"
+    },
+         {
+        path:"/airelibre/",
+        url:"airelibre.html"
+    },
+         {
+        path:"/rutas/",
+        url:"rutas.html"
+    },
+        {
+        path:"/atracciones/",
+        url:"atracciones.html"
+    },
   ],
     // ... other parameters
 });
@@ -105,3 +125,4 @@ var abrirPopupInicial = app.popup.open(".popup-inicial");
 //    }, 3000);
 //};
 //cerrar_popup()
+
