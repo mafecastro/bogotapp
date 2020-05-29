@@ -107,3 +107,4 @@ var abrirPopupInicial = app.popup.open(".popup-inicial");
 //    }, 3000);
 //};
 //cerrar_popup()
+
