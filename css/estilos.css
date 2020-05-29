@@ -361,18 +361,6 @@
   .swiper-slide img{
       margin-left: 45px;
   }
-  .swiper-slide h1{
-      color: #050529;
-      font-size: 30px;
-      display: block;
-      text-align: left;
-      padding: 90px 90px 20px;
-  }
-  .swiper-slide p {
-      padding: 0 90px ;
-      text-align: left;
-      font-size: 22px;
-  }
   .botonpopupc{
       text-align: center;
       margin-top: 60%;
