@@ -285,6 +285,11 @@ margin-right: -12px;
 
 
 /*ESTILOS VELASQUEZ*/
+.flechamafev a{
+    color: white;
+    margin-left: 20px;
+    font-size:20px;
+}
 .barra-sup {
     background-color: #ed5c05;
 }
