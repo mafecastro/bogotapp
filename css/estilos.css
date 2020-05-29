@@ -1,7 +1,6 @@
 .page-content{
     background-image:url(../images/patron.png);
     background-repeat: repeat;
-
   }
   .demo-swiper .swiper-slide {
     font-size: 25px;
@@ -128,7 +127,86 @@
   .texto1-rest{
       padding: 0 20px
   }
+  .right{
+      color: white;
+      margin-right: 25px;
 
+  }
+  .block h2{
+      color: #031926;
+      font-size: 23px;
+      margin-left: 10px;
+  }
+  .block img{
+      width: 100%;
+  }
+  .botonprincipal{
+      border-radius: 10px;
+      padding: 20px;
+      background-color: lightgray;
+      margin: 10px 40px 15px ;
+  }
+
+  /*ESTILOS VELASQUEZ*/
+  .barra-sup{
+      background-color:#ed5c05;
+  }
+  .barra-sup-hospedarse{
+      background-color: #7c0f0f;
+  }
+  .barra-down{
+      background-color: #eccb0f;
+  }
+  .toolbar-inner{
+     padding: 0 30px;
+      color: aqua;
+  }
+  .toolbar-inner a{
+      color: white;
+      font-size: 1.5em;
+  }
+  .list.links-list, .list.accordion-list{
+      margin:0;
+  }
+  .list.links-list{
+      border-bottom: none;
+  }
+  .panel.panel-left.panel-reveal.panel-resizable.panel-init{
+       background-color:#eccb0f;
+  }
+  .list, .links-list ul{
+      background-color:#eccb0f;
+
+  }
+  .list, .links-list li{
+      font-family: 'Jost', sans-serif;
+      font-size: 17px
+  }
+  .list, .accordion-list ul{
+      background-color:#eccb0f
+  }
+  .list, .accordion-list li{
+      font-family: 'Jost', sans-serif;
+      color: #031926
+  }
+  .accordion-item-content a{
+      text-decoration: none;
+      color: #031926;
+      font-size: 15px;
+      margin-left: 20px;
+      border-bottom: 1px solid black;
+  }
+  .left a{
+      color: white;
+      margin-left: 25px;
+      font-size: 1.2em;
+  }
+  .page-content{
+      background-image:url(../images/patron.png);
+  }
+  .texto1-rest{
+      padding: 0 20px
+  }
   .titulo-principal{
        font-family: 'Jost', sans-serif;
       color: #031926;
@@ -247,7 +325,119 @@
   }
 
   /*ESTILOS CASTRO*/
+  .bo img{
+  width: 50px;
+  }
+  .parra-principal{
+      color: #031926;
+      text-align: left;
+       font-size: 16px;
+      font-family: 'Jost', sans-serif;
+  }
+  .img{
+      width: 100%;
+      display: block;
+  }
+  /*ESTILOS RESTAURANTES*/
+  .sub-rest{
+      font-family: 'Jost', sans-serif;
+      margin-top: 0;
+  }
+  .col.button.button-large{
+      width: 100%;
+      padding: 8px;
+      background-color: #e8e3e3;
+      border-radius: 50px;
+  }
+  .col.button.button-large a{
+      text-decoration: none;
+      color: #031926;
+      font-size: 13px;
 
+  }
+  .titulo-principal2{
+      font-family: 'Jost', sans-serif;
+      color: #031926;
+      padding: 15px;
+      font-size: 20px
+  }
+
+  /*FOTOS CARTAS EXPANDIBLES RESTAURANTES*/
+  .tres-img-1{
+      background-image: url(../images/pizza-candelaria2.png);
+  }
+  .tres-img-2{
+      background-image: url(../images/rusticafix.png);
+  }
+  .tres-img-3{
+      background-image: url(../images/lamolina.png);
+  }
+  .tres-img-4{
+      background-image: url(../images/qun.png);
+  }
+  .cuatro-img-1{
+      background-image: url(../images/galenos.png);
+  }
+  .cuatro-img-2{
+      background-image: url(../images/serrata.png);
+  }
+  .cuatro-img-3{
+      background-image: url(../images/el-mono-bandidofix.png);
+  }
+  .cuatro-img-4{
+      background-image: url(../images/galgohotdogs.png);
+  }
+  .cinco-img-1{
+      background-image: url(../images/ushini.png);
+  }
+  .cinco-img-2{
+      background-image: url(../images/capitalino.png);
+  }
+  .cinco-img-3{
+      background-image: url(../images/flambee.png);
+  }
+  .cinco-img-4{
+      background-image: url(../images/inkas.png);
+  }
+  /*FOTOS CARTAS EXPANDIBLES HOTELES*/
+  .treshot-1{
+      background-image: url(../images/ayenda.png);
+  }
+  .treshot-2{
+      background-image: url(../images/hotel-comic-city.png);
+  }
+  .treshot-3{
+      background-image: url(../images/embassy.png);
+  }
+  .treshot-4{
+      background-image: url(../images/goldentower.png);
+  }
+  /*
+  .card-content-padding .tituloscartas {
+      font-family: 'Jost', sans-serif;
+      color: #031926;
+      font-size: 18px;
+  }
+  .card-content-padding p{
+      font-family: 'Jost', sans-serif;
+      color: #031926;
+      font-size: 16px;
+
+  }
+
+
+  .card-content img{
+      width: 100%;
+
+  }*/
+
+  /*estilos titulos de las paginas*/
+  .navbar-inner.barra-sup .title{
+      color: white;
+      font-family: 'Jost', sans-serif;
+  }
+
+  /*ESTILOS CASTRO*/
 .barra-supmafec {
     background-color:#f20530;
 }
@@ -471,6 +661,4 @@ img.demo-lazy {
     text-align: center;
     width: 90%;
     font-weight: bolder;
-    margin-right:10px;
-}
-
+    margin-right:10px;}
