@@ -19,11 +19,26 @@ var app = new Framework7({
         {
             path: '/tours/',
             url: 'tours.html',
- },
+    },
+        {
+            path: '/espectaculos/',
+            url: 'espectaculos.html',
+    },
+        {
+        path: '/excursiones/',
+        url: 'excursiones.html',
+    },
         {
             path: '/quever/',
             url: 'quever.html',
-
+    },
+        {
+        path: '/museos/',
+        url: 'museos.html',
+    },
+    {
+        path: '/entretenimiento/',
+        url: 'entretenimiento.html',
     },
         {
         path:"/disfruta/",
@@ -37,11 +52,11 @@ var app = new Framework7({
         path:"/tresestrellas/",
         url:"tresestrellas.html"
     },
-      {
+        {
         path:"/cuatroestrellas/",
         url:"cuatroestrellas.html"
     },
-      {
+        {
         path:"/cincoestrellas/",
         url:"cincoestrellas.html"
     },
@@ -49,7 +64,7 @@ var app = new Framework7({
         path:"/novedadesuno/",
         url:"novedadesuno.html"
     },
-         {
+        {
         path:"/actividades/",
         url:"actividades.html"},
     {
@@ -72,7 +87,7 @@ var app = new Framework7({
         path:"/hospedarse/",
         url:"hospedarse.html"
     },
-  ],
+    ],
     // ... other parameters
 });
 

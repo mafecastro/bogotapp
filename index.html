@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="css/estilos.css">
     <script type="text/javascript" src="js/all.js"></script>
 
+    <link rel="stylesheet" type="text/css" href="star-rating-svg.css">
 
     <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -55,8 +56,8 @@
                         </a>
                         <div class="accordion-item-content"><a class="link panel-close" href="/actividades/">Actividades</a></div>
                         <div class="accordion-item-content"><a class="link panel-close" href="/tours/">Tours</a></div>
-                        <div class="accordion-item-content"><a class="link panel-close" href="//">Espectaculos</a></div>
-                        <div class="accordion-item-content"><a class="link panel-close" href="//">Excursiones</a></div>
+                        <div class="accordion-item-content"><a class="link panel-close" href="/espectaculos/">Espectaculos</a></div>
+                        <div class="accordion-item-content"><a class="link panel-close" href="/excursiones/">Excursiones</a></div>
                     </li>
                     <li class="accordion-item">
                         <a href="" class="item-link item-content">
@@ -64,9 +65,10 @@
                                 <div class="item-title">Que ver..</div>
                             </div>
                             </a>
-                        <div class="accordion-item-content"><a class="link panel-close" href="//">Que ver</a></div>
-                        <div class="accordion-item-content"><a class="link panel-close" href="//">Museos</a></div>
-                        <div class="accordion-item-content"><a class="link panel-close" href="//">Entretenimiento</a></div>
+                        <div class="accordion-item-content"><a class="link panel-close" href="/quever/">Que ver</a></div>
+                        <div class="accordion-item-content"><a class="link panel-close" href="/museos/">Museos</a></div>
+                        <div class="accordion-item-content"><a class="link panel-close" href="/entretenimiento/">Entretenimiento</a></div>
+                        <div class="accordion-item-content"><a class="link panel-close" href="//">Vida Nocturna</a></div>
                         <div class="accordion-item-content"><a class="link panel-close" href="//">Compras</a></div>
                         <div class="accordion-item-content"><a class="link panel-close" href="//">Aire Libre</a></div>
                         <div class="accordion-item-content"><a class="link panel-close" href="//">Atracciones</a></div>
@@ -233,4 +235,16 @@
     <script type="text/javascript" src="js/framework7.bundle.min.js"></script>
     <!-- Path to your app js-->
     <script type="text/javascript" src="js/my-app.js"></script>
+
+    <script src="jquery.star-rating-svg.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+
+    <script>
+    $(".my-rating").starRating({
+        starSize: 25,
+        callback: function(currentRating, $el){
+            // make a server call here
+        }
+    });
+    </script>
 </body></html>
