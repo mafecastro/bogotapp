@@ -1,10 +1,7 @@
-
 .page-content {
     background-image: url(../images/patron.png);
     background-repeat: repeat;
-
 }
-
 .demo-swiper .swiper-slide {
     font-size: 25px;
     font-weight: 300;
@@ -63,8 +60,7 @@
 
 .right a {
     color: white;
-    margin-right: 25px;
-
+margin-right: -12px;
 }
 
 .block h2 {
@@ -80,14 +76,12 @@
 
 .botonprincipal {
     border-radius: 10px;
-
-    background-color: lightgray;
+    background-color: gainsboro;
     display: flex;
     flex-wrap: wrap;
     display: block;
-    margin: 10px;
-    width: 280px;
-    margin-left: 20%;
+    width: 200px;
+    height: 45px;
 
 
 }
@@ -99,14 +93,12 @@
 }
 
 .rowbotones img {
-
     width: 40px;
     height: 40px;
     display: block;
     justify-content: center;
     text-align: center;
     margin: auto;
-    padding-top: 6px;
 }
 
 /*NOVEDADES*/
@@ -269,13 +261,13 @@
     margin-left: 20%;
 }
 
-.rowbotonesact a{
+.botonesactividades a{
     color: #031926;
     justify-content: center;
     text-align: center;
 }
 
-.rowbotonesact i{
+.botonesactividades i{
     width: 40px;
     height: 40px;
     display: block;
@@ -330,12 +322,8 @@
 
 .list,
 .links-list ul {
-    background-color: #eccb0f; }
-
-.page-content{
-    background-image:url(../images/patron.png);
-    background-repeat: repeat;
-  }
+    background-color: #eccb0f;
+}
   .demo-swiper .swiper-slide {
     font-size: 25px;
     font-weight: 300;
@@ -379,9 +367,7 @@
       font-size: 23px;
       margin-left: 10px;
   }
-  .block img{
-      width: 100%;
-  }
+
   .botonprincipal{
       border-radius: 10px;
       padding: 20px;
@@ -443,9 +429,7 @@
       margin-left: 25px;
       font-size: 1.2em;
   }
-  .page-content{
-      background-image:url(../images/patron.png);
-  }
+
   .texto1-rest{
       padding: 0 20px
   }
@@ -459,9 +443,7 @@
       font-size: 23px;
       margin-left: 10px;
   }
-  .block img{
-      width: 100%;
-  }
+
   .botonprincipal{
       border-radius: 10px;
       padding: 20px;
@@ -523,9 +505,7 @@
       margin-left: 25px;
       font-size: 1.2em;
   }
-  .page-content{
-      background-image:url(../images/patron.png);
-  }
+
   .texto1-rest{
       padding: 0 20px
   }
@@ -795,10 +775,6 @@
     color: white;
     margin-left: 25px;
     font-size: 1.2em;
-}
-
-.page-content {
-    background-image: url(../images/patron.png);
 }
 
 .texto1-rest {
@@ -1072,3 +1048,181 @@ img.demo-lazy {
     width: 90%;
     font-weight: bolder;
     margin-right:10px;}
+
+
+
+
+/*ESTILOS CASTRO*/
+
+/*barraroja*/
+.barra-supmafec {
+    background-color:#f20530;
+}
+
+.leftmafec{
+    display: none;
+}
+
+.titlemafec{
+    color: white;
+    font-family: 'Jost', sans-serif;
+    text-align: center;
+    width: 90%;
+    font-weight: bolder;
+    margin-right:10px;
+}
+.iconomafec a{
+    color: white;
+    margin-right:20px;
+    font-size: 20px;
+
+}
+.flechamafec a{
+    color: white;
+    margin-left: 20px;
+    font-size:20px;
+}
+
+/tours-excursiones-espectaculos/
+
+.tourtitulo {
+    color:#031926;
+    font-weight: bold;
+    widows: 55px;
+    margin:0px 20px;
+    font-size: 18px;
+    width: 60%;
+    font-size: 20px;
+    width: 70%;
+}
+.tourinfo{
+    width: 90%;
+@@ -292,4 +312,122 @@ div.demo-lazy
+    color:#031926;
+    font-weight: bold;
+    widows: 55px;
+    font-size: 15px;
+    font-size: 17px;
+}
+
+/*quever*/
+
+/*barraazul*/
+.barra-supmafecazul {
+    background-color:#178faf;
+}
+
+.rightmafec a{
+    color: white;
+    margin-right: 20px;
+
+}
+
+.tituloquever h1{
+    color:#031926;
+    margin-left:20px;
+    margin-top: 20px;
+}
+
+.infoquever img{
+    width: 100%;
+    margin: auto;
+    display: table;
+}
+
+.infoquever {
+    width: 90%;
+    margin:auto;
+}
+.infoquever h4{
+    color:#031926;
+    font-size:18px;
+    font-weight: 600;
+    line-height:22px;
+    text-align: justify;
+}
+
+.botonprincipal {
+    border-radius: 10px;
+    background-color: lightgray;
+    display: flex;
+    flex-wrap: wrap;
+    display: block;
+    margin:10px  auto;
+    width: 250px;
+    margin-left: 20%;
+}
+.rowbotonesmafec a {
+    color: #031926;
+    justify-content: center;
+    text-align: center;
+    font-size: 45px;
+    line-height: 15px;
+}
+
+.rowbotonesmafec span{
+    font-size:15px;
+    font-weight:normal;
+    text-align: center;
+}
+
+.rowbotonesmafec{
+    margin-bottom:30px;
+}
+
+.titulosmafec{
+    color:#031926;
+    font-size:13px;
+    text-align: center;
+}
+
+.imgquever1{
+    background-image: url(../images/museodeloro.jpg);
+    width:100%;
+}
+.imgquever2{
+    background-image: url(../images/museobotero.jpg);
+
+}
+.imgquever3{
+    background-image: url(../images/museoacional.jpg);
+
+}
+.imgquever4{
+    background-image: url(../images/mambo.jpg);
+
+}
+.imgquever5{
+    background-image: url(../images/salitremagico.jpg);
+
+}
+.imgquever6{
+    background-image: url(../images/MundoAventura_corparques1.jpg);
+
+}
+.imgquever7{
+    background-image: url(../images/Maloka-FINAL.jpg);
+
+}
+.imgquever8{
+    background-image: url(../images/divercity.jpg);
+
+}
+.card-content-padding .tituloscartas {
+    font-family: 'Jost', sans-serif;
+    color: #031926;
+    font-size: 25px;
+}
+.card-content-padding p{
+    font-family: 'Jost', sans-serif;
+    color: #031926;
+    font-size: 16px;
+    text-align: justify;
+    font-weight: normal;
+}
+
+
+
+
+
+
