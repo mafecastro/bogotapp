@@ -72,6 +72,26 @@ var app = new Framework7({
         path:"/hospedarse/",
         url:"hospedarse.html"
     },
+         {
+        path:"/vidanocturna/",
+        url:"vidanocturna.html"
+    },
+         {
+        path:"/compras/",
+        url:"compras.html"
+    },
+         {
+        path:"/airelibre/",
+        url:"airelibre.html"
+    },
+         {
+        path:"/rutas/",
+        url:"rutas.html"
+    },
+        {
+        path:"/atracciones/",
+        url:"atracciones.html"
+    },
   ],
     // ... other parameters
 });

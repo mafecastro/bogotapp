@@ -240,6 +240,94 @@ width: 50px;
 .treshot-4{
     background-image: url(../images/goldentower.png);
 }
+.cuatrohot-1{
+    background-image: url(../images/wynd.png);
+}
+.cuatrohot-2{
+    background-image: url(../images/marriot.png);
+}.cuatrohot-3{
+    background-image: url(../images/hilton.png);
+}.cuatrohot-4{
+    background-image: url(../images/landcasterhouse2.png);
+}
+.cincohot-1{
+    background-image: url(../images/casalegado.png);
+}
+.cincohot-2{
+    background-image: url(../images/luxuryh.png);
+}
+.cincohot-3{
+    background-image: url(../images/urban8010.png);
+}
+.cincohot-4{
+    background-image: url(../images/salvio.png);
+}
+/*FOTOS CARTAS EXPANDIBLES VIDA NOCTURNA*/
+.imgquever9{
+    background-image: url(../images/zonat.png);
+}
+.imgquever10{
+    background-image: url(../images/theatron.png);
+}
+.imgquever11{
+    background-image: url(../images/armando.png);
+}
+.imgquever12{
+    background-image: url(../images/video%20club%20bogota.png);
+}
+/*FOTOS CARTAS EXPANDIBLES COMPRAS*/
+
+.imgquever13{
+    background-image: url(../images/andino.png);
+}
+.imgquever14{
+    background-image: url(../images/Santafe.png);
+}
+.imgquever15{
+    background-image: url(../images/Unicentro.png);
+}
+.imgquever16{
+    background-image: url(../images/Colina.png);
+}
+/*FOTOS CARTAS EXPANDIBLES AIRE LIBRE*/
+.imgquever17{
+    background-image: url(../images/parquesimonbolivar.png);
+}
+.imgquever18{
+    background-image: url(../images/parquedelosnovios.png);
+}
+.imgquever19{
+    background-image: url(../images/parquedela93.png);
+}
+.imgquever20{
+    background-image: url(../images/parquenacional.png);
+}
+/*FOTOS CARTAS EXPANDIBLES ATRACCIONES*/
+.imgquever21{
+    background-image: url(../images/monserrate_teleferico.png);
+}
+.imgquever22{
+    background-image: url(../images/planetario.png);
+}
+.imgquever23{
+    background-image: url(../images/corferias.png);
+}
+.imgquever24{
+    background-image: url(../images/chorro%20de%20quevedo.jpg);
+}
+/*FOTOS CARTAS EXPANDIBLES RUTAS*/
+.imgquever25{
+    background-image: url(../images/laseptima.png);
+}
+.imgquever26{
+    background-image: url(../images/elembudo.png);
+}
+.imgquever27{
+    background-image: url(../images/Jard%C2%B0n%20Botanico-2.png);
+}
+.imgquever28{
+    background-image: url(../images/ciclovia.png);
+}
 /*
 .card-content-padding .tituloscartas {
     font-family: 'Jost', sans-serif;
@@ -261,7 +349,19 @@ width: 50px;
 
 /*estilos titulos de las paginas*/
 .navbar-inner.barra-sup .title{
-    color: white;
+     color: white;
     font-family: 'Jost', sans-serif;
+    text-align: center;
+    width: 90%;
+    font-weight: bolder;
+    margin-right:10px;
 }
 
+.navbar-inner.barra-sup-hoteles .title{
+    color: white;
+    font-family: 'Jost', sans-serif;
+    text-align: center;
+    width: 90%;
+    font-weight: bolder;
+    margin-right:10px;
+}
